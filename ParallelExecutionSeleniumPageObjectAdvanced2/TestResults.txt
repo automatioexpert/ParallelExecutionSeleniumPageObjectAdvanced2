@@ -1,0 +1,46 @@
+[RemoteTestNG] detected TestNG version 7.0.0
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1670586198497	geckodriver	INFO	Listening on 127.0.0.1:63302
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 61038
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+1670586199065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53833" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:53833/,http://localhost:53833/,http://[::1]:53833/" "-no-remote" "-profile" "C:\\Users\\valmiki\\AppData\\Local\\Temp\\rust_mozprofileWFmC9I"
+1670586199997	Marionette	INFO	Marionette enabled
+1670586200011	Marionette	INFO	Listening on port 54120
+Read port: 54120
+WebDriver BiDi listening on ws://127.0.0.1:53833
+1670586200375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Dec 09, 2022 5:13:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 09, 2022 5:13:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+Dec 09, 2022 5:13:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 108 of 106
+Browser set is completed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\valmiki\\AppData\\Local\\Temp\\rust_mozprofileWFmC9I\\search.json.mozlz4", (void 0)))
+Login Test Passed
+DevTools listening on ws://127.0.0.1:53833/devtools/browser/288aea5d-3b05-4155-9672-f3f817b0a773
+Dec 09, 2022 5:13:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+CHECKOUT: COMPLETE!
+THANK YOU FOR YOUR ORDER
+addProductTillCheckOutTest Passed
+Browser set is completed
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+Login Test Passed
+CHECKOUT: COMPLETE!
+THANK YOU FOR YOUR ORDER
+addProductTillCheckOutTest Passed
+1670586215442	Marionette	INFO	Stopped listening on port 54120
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+[Parent 6096, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+===============================================
+Parallel Test Suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+

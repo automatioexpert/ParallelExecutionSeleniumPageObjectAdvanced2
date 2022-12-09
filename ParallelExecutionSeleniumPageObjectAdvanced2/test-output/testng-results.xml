@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-09T23:35:22 IST" name="Parallel Test Suite" finished-at="2022-12-09T23:35:22 IST" duration-ms="83">
+    <groups>
+    </groups>
+    <test started-at="2022-12-09T23:35:22 IST" name="Chrome Test" finished-at="2022-12-09T23:35:22 IST" duration-ms="83">
+      <class name="tests.EndToEndTest">
+        <test-method is-config="true" signature="classSetUp()[pri:0, instance:tests.EndToEndTest@5fd4f8f5]" started-at="2022-12-09T23:35:22 IST" name="classSetUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1670609122064" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method signature="loginTest()[pri:0, instance:tests.EndToEndTest@5fd4f8f5]" started-at="2022-12-09T23:35:22 IST" name="loginTest" finished-at="2022-12-09T23:35:22 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="selectProductAndCheckOutTest()[pri:1, instance:tests.EndToEndTest@5fd4f8f5]" started-at="2022-12-09T23:35:22 IST" name="selectProductAndCheckOutTest" finished-at="2022-12-09T23:35:22 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductAndCheckOutTest -->
+      </class> <!-- tests.EndToEndTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>
