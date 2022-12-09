@@ -10,9 +10,34 @@
           <include name="setUp"/>
           <include name="loginTest"/>
           <include name="tearDown"/>
-          <include name="selectProductAndCheckOutTest"/>
         </methods>
       </class> <!-- tests.EndToEndTest -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Edge Test(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="tests.EndToEndTest">
+        <methods>
+          <include name="classSetUp"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.EndToEndTest -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Firefox Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.EndToEndTest">
+        <methods>
+          <include name="classSetUp"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.EndToEndTest -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
 </suite> <!-- Failed suite [Parallel Test Suite] -->
